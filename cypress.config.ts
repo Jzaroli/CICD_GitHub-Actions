@@ -9,12 +9,13 @@ export default defineConfig({
       bundler: 'vite',
       viteConfig,
     },
+    specPattern: "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
   },
 
-  e2e: {
-    baseUrl: 'http://localhost:3001',
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-  },
+  // e2e: {
+  //   baseUrl: 'http://localhost:3001',
+  //   setupNodeEvents(on, config) {
+  //     // implement node event listeners here
+  //   },
+  // },
 });
