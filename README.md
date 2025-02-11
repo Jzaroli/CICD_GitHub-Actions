@@ -1,7 +1,15 @@
 # CICD_GitHub-Actions
 ## Description
+This exercise was mainly meant to practice and debug a CI/CD pipeline on GitHub Actions, where both a develop branch had its own component test and rules, and then the main branch hooking into Render, the hosting service.
+
+Screenshot 1:  
+![screenshot1](./assets/images/screenshot2.png)  
+
+Screenshot 2:  
+![screenshot1](./assets/images/screenshot1.png)  
 
 ## Usage
+You may access the deployed app at: https://cicd-github-actions.onrender.com
 
 ## Credits & How to Contribute
 This CI/CD GitHub Actions exercise was completed by Johann Zaroli. Please contact me on GitHub at Jzaroli with any questions or requests.
